@@ -19,7 +19,7 @@ int main()
     int d;
     scanf_s("%d", &c);
     scanf_s("%d", &d);
-    double V = (4.0 / 3.0) * pi * pow(c, d);
+    double V = (4.0 / 6.0) * pi * pow(c, 3);
     cout << fixed << setprecision(0) << "V=" << V << "\n";
     return 0;
 }
